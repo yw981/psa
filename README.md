@@ -45,6 +45,10 @@ python3 train_cls.py --lr 0.1 --batch_size 16 --max_epoches 15 --crop_size 448 -
 python3 infer_cls.py --infer_list voc12/train_aug.txt --voc12_root [your_voc12_root_folder] --network [network.vgg16_cls | network.resnet38_cls] --weights [your_weights_file] --out_cam [desired_folder] --out_la_crf [desired_folder] --out_ha_crf [desired_folder]
 ```
 
+```bash
+python infer_cls.py --infer_list voc12/train_aug.txt --voc12_root voc12/ --network network.vgg16_cls  --weights vgg16/vgg_cls.pth --out_cam out_cam --out_la_crf out_la_crf --out_ha_crf out_ha_crf
+```
+
 
 #### (Optional) Check the accuracy of CAMs.
 ```bash
