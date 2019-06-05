@@ -1,3 +1,15 @@
+voc12/Annotations/
+voc12/ImageSets/
+voc12/JPEGImages/
+voc12/SegmentationClass/
+voc12/SegmentationObject/
+
+vgg16/
+out_cam/
+out_ha_cam/
+out_la_cam/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
