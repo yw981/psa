@@ -8,6 +8,9 @@ vgg16/
 out_cam/
 out_ha_cam/
 out_la_cam/
+.idea/
+out_ha_crf/
+out_la_crf/
 
 
 # Byte-compiled / optimized / DLL files
