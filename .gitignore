@@ -11,7 +11,7 @@ out_la_cam/
 .idea/
 out_ha_crf/
 out_la_crf/
-
+*.npy
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -32,7 +32,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     model = getattr(importlib.import_module(args.network), 'Net')()
-    model.load_state_dict(torch.load(args.weights))
+    model.load_state_dict(torch.load(args.weights,map_location='cpu'))
 
     model.eval()
     model.cuda()
